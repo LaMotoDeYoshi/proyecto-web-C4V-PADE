@@ -1,0 +1,133 @@
+body{
+    font-family: arial, helvetica;
+    background: #3B3B3B;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #6A6A6A;
+    width: 90%;
+    max-width: 1020px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #E38600;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #FFD25C;
+}
+
+footer{
+    color: #E38600;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    text-align: center;
+}
+
+h3{
+    color: #FDC700;
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+.slider-frame {
+    width: 700px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden; 
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 12s infinite alternate ease-in-out;
+}
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+   flex: 50%;
+   padding: 10px; 
+}
+
+p{
+   color:#00BDC2; 
+   font-family:sans-serif; 
+   font-size :20px; 
+   text-align:center; 
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+h4 {
+    color:#A1FD00; 
+   font-family:sans-serif; 
+   font-size :30px; 
+   text-align: center;
+}
+
+h2 {
+    color:#00A9FD; 
+   font-family:sans-serif; 
+   font-size :20px; 
+   text-align: auto;
+}
